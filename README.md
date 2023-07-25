@@ -4,12 +4,12 @@
 
 ## Code-first Headless CMS that bridges the gap between CMS and application framework
 
-The original project was created using create-payload-app using the blank template.
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/820m28?referralCode=ySCnWl)
 
-## What makes this work on Railway?
-
-tbd
+The original project was created using `npx create-payload-app` and used the blank template.
 
 ## How to Use locally
 
-`railway run yarn dev` will start up your application and reload on any changes.
+- `yarn install` to install the needed dependencies
+- Install and configure the [Railway CLI](https://docs.railway.app/develop/cli)
+- `railway run yarn dev` will start up your application and reload on any changes.

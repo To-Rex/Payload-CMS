@@ -4,10 +4,7 @@
 
 ## Code-first Headless CMS that bridges the gap between CMS and application framework
 
-
-
 The original project was created using create-payload-app using the blank template.
-
 
 ## What makes this work on Railway?
 

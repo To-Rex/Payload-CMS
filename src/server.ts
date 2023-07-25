@@ -22,6 +22,10 @@ const start = async () => {
 
   // Add your own express routes here
 
+  app.get('/health', (_, res) => {
+    res.sendStatus(200);
+  });
+
   const PORT = process.env.PORT || 3000;
 
 	app.listen(PORT);

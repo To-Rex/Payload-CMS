@@ -30,4 +30,4 @@ COPY --from=builder /home/node/app/build ./build
 
 ENV NODE_NO_WARNINGS=1
 
-CMD ["node", "dist/server.js"]
+CMD ["node", "./dist/server.js"]

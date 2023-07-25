@@ -12,7 +12,7 @@ const Media: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'filename',
-    description: 'Uploads are set to read-only for this demo.',
+    description: 'upload media',
     group: 'Content'
   },
 
@@ -50,15 +50,13 @@ const Media: CollectionConfig = {
   },
 
   // upload collections inherit base fields for file information and imageSizes, then add your own for users to change
-  fields: [
-    {
-      name: 'alt',
-      label: 'Alt Text',
-      localized: true,
-      type: 'text',
-      required: true,
-    },
-  ],
+  fields: [{
+    name: 'alt',
+    label: 'Alt Text',
+    localized: true,
+    type: 'text',
+    required: true,
+  }],
 };
 
 export default Media;

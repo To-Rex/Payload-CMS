@@ -1,19 +1,18 @@
-# payload-cms-template
+![](https://camo.githubusercontent.com/4b3ec65b23ca3888b43a57bc72a63066ed4051ca0c0d2eddd39ea8d440d51119/68747470733a2f2f636d732e7061796c6f6164636d732e636f6d2f6d656469612f7061796c6f61642d6769746875622d6865616465722e6a7067)
 
-This project was created using create-payload-app using the blank template.
+# Payload CMS
 
-## How to Use
+## Code-first Headless CMS that bridges the gap between CMS and application framework
 
-`yarn dev` will start up your application and reload on any changes.
 
-### Docker
 
-If you have docker and docker-compose installed, you can run `docker-compose up`
+The original project was created using create-payload-app using the blank template.
 
-To build the docker image, run `docker build -t my-tag .`
 
-Ensure you are passing all needed environment variables when starting up your container via `--env-file` or setting them with your deployment.
+## What makes this work on Railway?
 
-The 3 typical env vars will be `MONGODB_URI`, `PAYLOAD_SECRET`, and `PAYLOAD_CONFIG_PATH`
+tbd
 
-`docker run --env-file .env -p 3000:3000 my-tag`
+## How to Use locally
+
+`railway run yarn dev` will start up your application and reload on any changes.

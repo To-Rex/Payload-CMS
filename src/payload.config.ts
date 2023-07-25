@@ -9,13 +9,13 @@ const serverURL = process.env.PAYLOAD_PUBLIC_SERVER_URL;
 export default buildConfig({
   serverURL: (serverURL == 'https://') ? 'http://127.0.0.1:3000' : serverURL,
   admin: {
-    user: Users.slug,
+    user: Users.slug
   },
   collections: [Users, Media, Examples],
   typescript: {
-    outputFile: path.resolve(__dirname, 'payload-types.ts'),
+    outputFile: path.resolve(__dirname, 'payload-types.ts')
   },
   graphQL: {
-    schemaOutputFile: path.resolve(__dirname, 'generated-schema.graphql'),
-  },
+    schemaOutputFile: path.resolve(__dirname, 'generated-schema.graphql')
+  }
 })

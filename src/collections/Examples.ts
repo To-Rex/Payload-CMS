@@ -4,14 +4,14 @@ import { CollectionConfig } from 'payload/types';
 const Examples: CollectionConfig = {
   slug: 'examples',
   admin: {
-    useAsTitle: 'someField',
+    useAsTitle: 'someField'
   },
   fields: [
     {
       name: 'someField',
       type: 'text',
-    },
-  ],
+    }
+  ]
 }
 
 export default Examples;

@@ -8,7 +8,7 @@ const Media: CollectionConfig = {
     read: () => true,
     create: () => true,
     update: () => true,
-    delete: () => true,
+    delete: () => true
   },
   admin: {
     useAsTitle: 'filename',
@@ -34,29 +34,31 @@ const Media: CollectionConfig = {
       {
         name: 'thumbnail',
         width: 480,
-        height: 320,
+        height: 320
       },
       {
         name: 'portrait',
         width: 768,
-        height: 1024,
+        height: 1024
       },
       {
         name: 'hero',
         width: 1920,
-        height: 1080,
+        height: 1080
       }
-    ],
+    ]
   },
 
   // upload collections inherit base fields for file information and imageSizes, then add your own for users to change
-  fields: [{
-    name: 'alt',
-    label: 'Alt Text',
-    localized: true,
-    type: 'text',
-    required: true,
-  }],
+  fields: [
+    {
+      name: 'alt',
+      label: 'Alt Text',
+      localized: true,
+      type: 'text',
+      required: true,
+    }
+  ]
 };
 
 export default Media;
